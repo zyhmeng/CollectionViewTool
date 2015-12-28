@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionSectionFooterView" id="U6b-Vx-4bR">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CollectionSectionFootView" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezK-Yf-AVo">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.66666666666666663" green="0.53969908704320324" blue="0.57471085026563484" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="ezK-Yf-AVo" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="5XK-03-zne"/>
+                <constraint firstAttribute="trailing" secondItem="ezK-Yf-AVo" secondAttribute="trailing" id="W4o-m7-yQ2"/>
+                <constraint firstItem="ezK-Yf-AVo" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="eOB-Gw-2Ba"/>
+                <constraint firstAttribute="bottom" secondItem="ezK-Yf-AVo" secondAttribute="bottom" id="q02-87-W13"/>
+            </constraints>
+        </collectionReusableView>
+    </objects>
+</document>

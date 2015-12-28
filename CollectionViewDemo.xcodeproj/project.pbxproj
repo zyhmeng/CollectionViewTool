@@ -15,6 +15,16 @@
 		0650EF701C2CDCB1001BFB7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0650EF6E1C2CDCB1001BFB7F /* LaunchScreen.storyboard */; };
 		0650EF7B1C2CDCB1001BFB7F /* CollectionViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0650EF7A1C2CDCB1001BFB7F /* CollectionViewDemoTests.m */; };
 		0650EF861C2CDCB1001BFB7F /* CollectionViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0650EF851C2CDCB1001BFB7F /* CollectionViewDemoUITests.m */; };
+		0650EF9B1C2CE46C001BFB7F /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0650EF991C2CE46C001BFB7F /* CustomCollectionViewCell.m */; };
+		0650EF9C1C2CE46C001BFB7F /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0650EF9A1C2CE46C001BFB7F /* CustomCollectionViewCell.xib */; };
+		0650EFA01C2CE9CB001BFB7F /* CollectionSectionHeaerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0650EF9E1C2CE9CB001BFB7F /* CollectionSectionHeaerView.m */; };
+		0650EFA11C2CE9CB001BFB7F /* CollectionSectionHeaerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0650EF9F1C2CE9CB001BFB7F /* CollectionSectionHeaerView.xib */; };
+		0650EFA51C2D0C44001BFB7F /* CollectionSectionFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0650EFA31C2D0C44001BFB7F /* CollectionSectionFooterView.m */; };
+		0650EFA61C2D0C44001BFB7F /* CollectionSectionFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0650EFA41C2D0C44001BFB7F /* CollectionSectionFooterView.xib */; };
+		0650EFA91C2D11A1001BFB7F /* EasyTableViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0650EFA81C2D11A0001BFB7F /* EasyTableViewTool.m */; };
+		0650EFAC1C2D1364001BFB7F /* YFCollectionViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0650EFAB1C2D1364001BFB7F /* YFCollectionViewTool.m */; };
+		069E06191C2E25F300750512 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 069E06171C2E25F300750512 /* CollectionViewController.m */; };
+		069E061A1C2E25F300750512 /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 069E06181C2E25F300750512 /* CollectionViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,22 @@
 		0650EF811C2CDCB1001BFB7F /* CollectionViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0650EF851C2CDCB1001BFB7F /* CollectionViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewDemoUITests.m; sourceTree = "<group>"; };
 		0650EF871C2CDCB1001BFB7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0650EF981C2CE46C001BFB7F /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
+		0650EF991C2CE46C001BFB7F /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
+		0650EF9A1C2CE46C001BFB7F /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		0650EF9D1C2CE9CB001BFB7F /* CollectionSectionHeaerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionSectionHeaerView.h; sourceTree = "<group>"; };
+		0650EF9E1C2CE9CB001BFB7F /* CollectionSectionHeaerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionSectionHeaerView.m; sourceTree = "<group>"; };
+		0650EF9F1C2CE9CB001BFB7F /* CollectionSectionHeaerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionSectionHeaerView.xib; sourceTree = "<group>"; };
+		0650EFA21C2D0C44001BFB7F /* CollectionSectionFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionSectionFooterView.h; sourceTree = "<group>"; };
+		0650EFA31C2D0C44001BFB7F /* CollectionSectionFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionSectionFooterView.m; sourceTree = "<group>"; };
+		0650EFA41C2D0C44001BFB7F /* CollectionSectionFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionSectionFooterView.xib; sourceTree = "<group>"; };
+		0650EFA71C2D11A0001BFB7F /* EasyTableViewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyTableViewTool.h; sourceTree = "<group>"; };
+		0650EFA81C2D11A0001BFB7F /* EasyTableViewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyTableViewTool.m; sourceTree = "<group>"; };
+		0650EFAA1C2D1364001BFB7F /* YFCollectionViewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFCollectionViewTool.h; sourceTree = "<group>"; };
+		0650EFAB1C2D1364001BFB7F /* YFCollectionViewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFCollectionViewTool.m; sourceTree = "<group>"; };
+		069E06161C2E25F300750512 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		069E06171C2E25F300750512 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		069E06181C2E25F300750512 /* CollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +127,27 @@
 		0650EF5F1C2CDCB1001BFB7F /* CollectionViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0650EFA71C2D11A0001BFB7F /* EasyTableViewTool.h */,
+				0650EFA81C2D11A0001BFB7F /* EasyTableViewTool.m */,
+				0650EFAA1C2D1364001BFB7F /* YFCollectionViewTool.h */,
+				0650EFAB1C2D1364001BFB7F /* YFCollectionViewTool.m */,
+				069E06161C2E25F300750512 /* CollectionViewController.h */,
+				069E06171C2E25F300750512 /* CollectionViewController.m */,
+				069E06181C2E25F300750512 /* CollectionViewController.xib */,
 				0650EF631C2CDCB1001BFB7F /* AppDelegate.h */,
 				0650EF641C2CDCB1001BFB7F /* AppDelegate.m */,
 				0650EF661C2CDCB1001BFB7F /* ViewController.h */,
 				0650EF671C2CDCB1001BFB7F /* ViewController.m */,
 				0650EF691C2CDCB1001BFB7F /* Main.storyboard */,
+				0650EF981C2CE46C001BFB7F /* CustomCollectionViewCell.h */,
+				0650EF991C2CE46C001BFB7F /* CustomCollectionViewCell.m */,
+				0650EF9A1C2CE46C001BFB7F /* CustomCollectionViewCell.xib */,
+				0650EF9D1C2CE9CB001BFB7F /* CollectionSectionHeaerView.h */,
+				0650EF9E1C2CE9CB001BFB7F /* CollectionSectionHeaerView.m */,
+				0650EF9F1C2CE9CB001BFB7F /* CollectionSectionHeaerView.xib */,
+				0650EFA21C2D0C44001BFB7F /* CollectionSectionFooterView.h */,
+				0650EFA31C2D0C44001BFB7F /* CollectionSectionFooterView.m */,
+				0650EFA41C2D0C44001BFB7F /* CollectionSectionFooterView.xib */,
 				0650EF6C1C2CDCB1001BFB7F /* Assets.xcassets */,
 				0650EF6E1C2CDCB1001BFB7F /* LaunchScreen.storyboard */,
 				0650EF711C2CDCB1001BFB7F /* Info.plist */,
@@ -245,6 +287,10 @@
 			files = (
 				0650EF701C2CDCB1001BFB7F /* LaunchScreen.storyboard in Resources */,
 				0650EF6D1C2CDCB1001BFB7F /* Assets.xcassets in Resources */,
+				069E061A1C2E25F300750512 /* CollectionViewController.xib in Resources */,
+				0650EF9C1C2CE46C001BFB7F /* CustomCollectionViewCell.xib in Resources */,
+				0650EFA11C2CE9CB001BFB7F /* CollectionSectionHeaerView.xib in Resources */,
+				0650EFA61C2D0C44001BFB7F /* CollectionSectionFooterView.xib in Resources */,
 				0650EF6B1C2CDCB1001BFB7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +318,13 @@
 			files = (
 				0650EF681C2CDCB1001BFB7F /* ViewController.m in Sources */,
 				0650EF651C2CDCB1001BFB7F /* AppDelegate.m in Sources */,
+				0650EFAC1C2D1364001BFB7F /* YFCollectionViewTool.m in Sources */,
 				0650EF621C2CDCB1001BFB7F /* main.m in Sources */,
+				0650EF9B1C2CE46C001BFB7F /* CustomCollectionViewCell.m in Sources */,
+				0650EFA51C2D0C44001BFB7F /* CollectionSectionFooterView.m in Sources */,
+				0650EFA91C2D11A1001BFB7F /* EasyTableViewTool.m in Sources */,
+				0650EFA01C2CE9CB001BFB7F /* CollectionSectionHeaerView.m in Sources */,
+				069E06191C2E25F300750512 /* CollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +550,7 @@
 				0650EF8C1C2CDCB1001BFB7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0650EF8D1C2CDCB1001BFB7F /* Build configuration list for PBXNativeTarget "CollectionViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +559,7 @@
 				0650EF8F1C2CDCB1001BFB7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0650EF901C2CDCB1001BFB7F /* Build configuration list for PBXNativeTarget "CollectionViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +568,7 @@
 				0650EF921C2CDCB1001BFB7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
